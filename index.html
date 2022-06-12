@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>color</title>
+<script src ="scriptcopy.js"></script>
+<style>
+    h2{
+        text-align: center
+    };
+    #color{
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0 auto 0 auto;
+}
+
+ .work{
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0 auto 0 auto;
+ }
+ .go{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(194, 25, 135);
+    color: rgb(255, 255, 255);
+    margin: auto 0 50px auto;
+    border-radius: 5px;
+    
+ }
+ .buttoncover{
+    text-align: center;
+ }
+</style>
+
+
+</head>
+<body>
+	
+
+<h2>ゲルハルト・シュミレーター</h2>
+<div id="blocks" class="work"></div>
+<div class="buttoncover">
+<input type="button" class="go" value="別の配色を試す" onclick="blocksCreate()">
+</div>
+
+<div id="color" class="work">
+</div>
+<div class="buttoncover">
+<input type="button" class="go" value="別の配色を試す" onclick="linesCreate()">
+</div>
+
+
+
+   
+
+
+</body>
+</html>
